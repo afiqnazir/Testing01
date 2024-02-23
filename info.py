@@ -13,9 +13,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '28271319'))
-API_HASH = environ.get('API_HASH', '84d8b635a127218158581c0fd8225770')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6709926487:AAG3YYUak5cmFtLrqLzw6WdXDhQ0UYdQWu8")
+API_ID = int(environ.get('API_ID', '27942267'))
+API_HASH = environ.get('API_HASH', '250cba7da72d4920a7d88c79d36d744d')
+BOT_TOKEN = environ.get('BOT_TOKEN', "6207588798:AAHtKaBRnzmIxU1TQzg_RU6eayTyhJDmyYI")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -63,7 +63,7 @@ CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/AmanBotz')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/howto_open_Teraboxlink/14')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', '〽️ 𝗠𝗮𝗶𝗻𝘁𝗮𝗶𝗻𝗲𝗱 𝗕𝘆: 𝗔𝗺𝗮𝗻 𝗖𝗵𝗮𝘂𝗱𝗵𝗮𝗿𝘆 〽️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001910513374'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002081220472'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'theamanchaudhary')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
